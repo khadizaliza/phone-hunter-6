@@ -46,8 +46,13 @@ const details = (slug) => {
 };
 
 const setDetails = (info) => {
-
-}
+    document.getElementById("details-container").innerHTML = `
+    <div>
+    <h4>Brand:${phone.brand} </h4>
+    <p>Slug:${phone.slug} </P>
+    </div>
+    `
+};
 
 
 
