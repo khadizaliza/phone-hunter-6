@@ -51,7 +51,7 @@ const setDetails = (info) => {
     <h4>Brand:${phone.brand} </h4>
     <p>Slug:${phone.slug} </P>
     </div>
-    `
+    `;
 };
 
 
